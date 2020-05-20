@@ -1,1 +1,5 @@
-# Perhaps start with a gitignore from: https://github.com/github/gitignore
+.DS_STORE
+._*
+venv
+__pycache__
+*.class
