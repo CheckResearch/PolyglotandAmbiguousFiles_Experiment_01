@@ -1,6 +1,6 @@
 # CheckResearch.org [Experiment](https://checkresearch.org/Experiment/View/69b1936d-c05a-4b10-b4f6-492593fd0c3e)
 
- Publication ["Polyglot and Ambiguous Files"](https://dblp.uni-trier.de/search?q=Polyglot+and+Ambiguous+Files) by "Paul Kalauner"
+ Publication "Polyglot and Ambiguous Files" by "Paul Kalauner"
 
 This work shows how vague aspects of file format specifications can lead to *polyglot* and *ambiguous* files.
 
@@ -107,7 +107,7 @@ pip install Pillow==7.0.0 imageio==2.8.0
 
 The experiment contains multiple polyglot and ambiguous files. To create the files in the `result` directory, the following commands have to be executed.
 
-Note that the working directory for all of the following commands should be `code/originalcode`.
+Note that the working directory for all of the following commands should be `code/originalcode`. You can also run `./create_all.sh` from the root directory of the project to run all commands below at once.
 
 ### Polyglots
 
