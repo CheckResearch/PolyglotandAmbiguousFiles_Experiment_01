@@ -3,7 +3,9 @@
  Publication ["Polyglot and Ambiguous Files"](https://dblp.uni-trier.de/search?q=Polyglot+and+Ambiguous+Files) by "Paul Kalauner"
 
 This work shows how vague aspects of file format specifications can lead to *polyglot* and *ambiguous* files.
+
 *Polyglot* files combine multiple files of *different* formats into one file. Depending on the program that opens the file, the file will be processed accordingly to the specific file format.
+
 *Ambiguous files* (also referred to as *schizophrenic files* in some works) do not contain multiple file formats, but combine multiple data of the *same* file format. Different programs therefore read different data as if different files (of the same format) were opened.
 
 ## Experiment Setup
@@ -212,6 +214,8 @@ python3 createAmbiguousZIP.py ../../data/originaldata/TXT/file1.txt ../../data/o
 
 After the files were created they can be opened with the programs mentioned in the [experiment setup](#Experiment-setup). The tables below show the compatibility with the tools and what contents are displayed.
 
+### Image viewers
+
 | Image viewer     	|      ambiguous GIF      	| GIF-PHP 	| JPEG-JS 	| JPEG-PDF 	| JPEG-ZIP 	|
 |------------------	|:-----------------------:	|:-------:	|:-------:	|:--------:	|:--------:	|
 | Apple Preview    	|        Red image        	|    ✓    	|    ✓    	|     ✓    	|     ✓    	|
@@ -222,6 +226,8 @@ After the files were created they can be opened with the programs mentioned in t
 | Google Chrome    	|        Red image        	|    ✓    	|    ✓    	|     ✓    	|     ✓    	|
 | Mozilla Firefox  	|        Red image        	|    ✓    	|    ✓    	|     ✓    	|     ✓    	|
 | Microsoft Edge   	|        Red image        	|    ✓    	|    ✓    	|     ✓    	|     ✓    	|
+
+### PDF readers
 
 | PDF reader              	| Ambig. PDF (3 images) 	| Ambig. PDF (2 images) 	| PDF-ZIP/JAR 	| PDF-ZIP (nested) 	| ZIP-PDF 	| JPEG-PDF 	| PDF-HTML 	|
 |-------------------------	|:---------------------:	|:---------------------:	|:-----------:	|:----------------:	|:-------:	|:--------:	|:--------:	|
@@ -235,6 +241,8 @@ After the files were created they can be opened with the programs mentioned in t
 | Mozilla Firefox         	|       Red image       	|       Red image       	|      ✓      	|         ✓        	|    ✓    	|     ✓    	|     ✓    	|
 | Microsoft Edge          	|           ✗           	|           ✗           	|      ✓      	|         ✓        	|    ✓    	|     ✓    	|     ✓    	|
 
+### ZIP tools
+
 | ZIP tool              	| Ambig. ZIP 	| PDF-ZIP 	| PDF-ZIP (nested) 	| ZIP-PDF 	| JPEG-ZIP 	|
 |-----------------------	|:-------------:	|:-------:	|:----------------:	|:-------:	|:--------:	|
 | Apple Archive Utility 	|     File 4    	|    ✗    	|         ✗        	|    ✓    	|     ✗    	|
@@ -246,6 +254,8 @@ After the files were created they can be opened with the programs mentioned in t
 | Windows Explorer      	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
 | WinRAR                	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
 | 7zip                  	|     File 1    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
+
+### Browsers
 
 | Browser         	| PDF-HTML 	| GIF-JS 	| JPEG-JS 	| JS-Java 	| SVG-JS 	|
 |-----------------	|:--------:	|:------:	|:-------:	|:-------:	|:------:	|
