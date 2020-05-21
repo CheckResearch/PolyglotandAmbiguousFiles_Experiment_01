@@ -83,8 +83,6 @@ The table below shows the programs which were used to open the created files.
 
 </td></tr> </table>
 
-Describe your Hardware & Software setup
-
 ## Experiment Assumptions
 
 No significant assumptions
@@ -216,7 +214,7 @@ After the files were created they can be opened with the programs mentioned in t
 
 ### Image viewers
 
-| Image viewer     	|      ambiguous GIF      	| GIF-PHP 	| JPEG-JS 	| JPEG-PDF 	| JPEG-ZIP 	|
+| Image viewer     	| Ambig. GIF         	    | GIF-PHP 	| JPEG-JS 	| JPEG-PDF 	| JPEG-ZIP 	|
 |------------------	|:-----------------------:	|:-------:	|:-------:	|:--------:	|:--------:	|
 | Apple Preview    	|        Red image        	|    ✓    	|    ✓    	|     ✓    	|     ✓    	|
 | Windows Photos   	|        Red image        	|    ✓    	|    ✓    	|     ✓    	|     ✓    	|
@@ -243,7 +241,7 @@ After the files were created they can be opened with the programs mentioned in t
 
 ### ZIP tools
 
-| ZIP tool              	| Ambig. ZIP 	| PDF-ZIP 	| PDF-ZIP (nested) 	| ZIP-PDF 	| JPEG-ZIP 	|
+| ZIP tool              	| Ambig. ZIP     	| PDF-ZIP 	| PDF-ZIP (nested) 	| ZIP-PDF 	| JPEG-ZIP 	|
 |-----------------------	|:-------------:	|:-------:	|:----------------:	|:-------:	|:--------:	|
 | Apple Archive Utility 	|     File 4    	|    ✗    	|         ✗        	|    ✓    	|     ✗    	|
 | The Unarchiver        	|     File 4    	|    ✗    	|         ✗        	|    ✓    	|     ✓    	|
