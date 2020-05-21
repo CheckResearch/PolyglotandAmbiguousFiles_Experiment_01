@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <dc:creator>p.kalauner</dc:creator>
+  <dc:title>Experiment for "Polyglot and Ambiguous Files"</dc:title>
+  <dc:subject>Reproduction of the work in "Polyglot and Ambiguous Files" by "Paul Kalauner"</dc:subject>
+  <dc:description>This work shows how vague aspects of file format specifications can lead to polyglot and ambiguous files. In this experiment the created files are evaluated regarding their compatibility with different programs and the contents that are displayed.</dc:description>
+  <dc:date>2020-05-21T15:13:27.312093</dc:date>
+  <dc:type>OriginalResearch</dc:type>
+  <dc:language>English</dc:language>
+  <dc:identifier>https://checkresearch.org/Experiment/View/69b1936d-c05a-4b10-b4f6-492593fd0c3e</dc:identifier>
+  <dc:identifier>https://github.com/CheckResearch/PolyglotandAmbiguousFiles_Experiment_01</dc:identifier>
+</metadata>
