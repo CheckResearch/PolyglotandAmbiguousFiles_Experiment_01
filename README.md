@@ -245,10 +245,10 @@ After the files were created they can be opened with the programs mentioned in t
 |-----------------------	|:-------------:	|:-------:	|:----------------:	|:-------:	|:--------:	|
 | Apple Archive Utility 	|     File 4    	|    ✗    	|         ✗        	|    ✓    	|     ✗    	|
 | The Unarchiver        	|     File 4    	|    ✗    	|         ✗        	|    ✓    	|     ✓    	|
-| Command Line unzip    	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
-| Python zifile module  	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
-| Java ZipInputStream   	|     File 1    	|    ✗    	|         ✗        	|    ✓    	|     ✗    	|
-| PHP ZipArchive        	|     File 3    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
+| Command Line `unzip`    	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
+| Python `zipfile` module  	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
+| Java `ZipInputStream`   	|     File 1    	|    ✗    	|         ✗        	|    ✓    	|     ✗    	|
+| PHP `ZipArchive`        	|     File 3    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
 | Windows Explorer      	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
 | WinRAR                	|     File 4    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
 | 7zip                  	|     File 1    	|    ✓    	|         ✓        	|    ✓    	|     ✓    	|
